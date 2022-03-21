@@ -42,6 +42,6 @@ app.get('/api/db/delete', async (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, process.env.HOSTNAME, () => {
     console.log(`App listening on localhost:${PORT}`);
 });
