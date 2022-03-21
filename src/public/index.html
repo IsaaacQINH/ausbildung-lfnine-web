@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>LF9 IPFire</title>
+</head>
+<body>
+    <h1>LF9<span>Marius Wagner & York Treinies</span></h1>
+    <div class="main">
+        <div class="table" id="open-tickets">
+            <div class="table-header">
+                <div class="table-column">ID</div>
+                <div class="table-column">Titel</div>
+                <div class="table-column">Beschreibung</div>
+                <div class="table-column">Erstellt am</div>
+            </div>
+        </div>
+        <div class="editor">
+            <form class="editor-form">
+                <label for="title">Titel:
+                    <input type="text" name="title" id="title" maxlength="128"/>
+                </label>
+                <label for="description">Beschreibung:
+                    <textarea name="description" id="description" maxlength="5120"></textarea>
+                </label>
+                <input type="button" value="Add Ticket" name="submit" id="submit" onclick="postTicket()"/>
+                <input type="button" value="Delete All" name="submit" id="submit" onclick="deleteAll()"/>
+            </form>
+        </div>
+    </div>
+    <script defer src="/js/main.js"></script>
+</body>
+</html>
