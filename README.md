@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> Web-Applikation zum Nachweisen der Funktionfähigkeit des erstellten und konfigurierten Netzes
+> Web-Applikation zum Nachweisen der Funktionsfähigkeit des erstellten und konfigurierten Netzes
 
 ## Install
 
